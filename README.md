@@ -30,15 +30,27 @@ Open the Jupyter Notebook in the starter code folder named part_2_mars_weather.i
     - pressure: The atmospheric pressure at Curiosity's location
 - Examine the data types that are currently associated with each column. If necessary, cast (or convert) the data to the appropriate datetime, int, or float data types.
 - Analyze your dataset by using Pandas functions to answer the following questions:
-    - How many months exist on Mars?
-    - How many Martian (and not Earth) days worth of data exist in the scraped dataset?
-    - What are the coldest and the warmest months on Mars (at the location of Curiosity)? To answer this question:
+    - How many months exist on Mars? 12
+    - How many Martian (and not Earth) days worth of data exist in the scraped dataset? 1867
+    - What are the coldest and the warmest months on Mars (at the location of Curiosity)? The coldest month is March with an average minimum temperature of -83.30 degrees celsius and the warmest month is August with an average minimum temperature of -68.38 degrees celsius.
+    - To answer this question:
         - Find the average minimum daily temperature for all of the months.
         - Plot the results as a bar chart.
-    - Which months have the lowest and the highest atmospheric pressure on Mars? To answer this question:
+          <br><br>
+          <img width="613" alt="Screenshot 2024-12-07 at 10 13 06 AM" src="https://github.com/user-attachments/assets/f3e17ce5-2cca-4662-87b3-d91d8edadf73">
+          <br><br<>
+    - Which months have the lowest and the highest atmospheric pressure on Mars? June has the lowest atmospheric pressure with an average pressure of 745.054422 and September has the highest atmospheric pressure with an average pressure of 913.305970.
+    - To answer this question:
         - Find the average daily atmospheric pressure of all the months.
         - Plot the results as a bar chart.
-    - About how many terrestrial (Earth) days exist in a Martian year? To answer this question:
+          <br><br>
+          <img width="588" alt="Screenshot 2024-12-07 at 10 14 01 AM" src="https://github.com/user-attachments/assets/9f1cad25-892d-4c08-b560-3482b56050d6">
+          <br><br>
+    - About how many terrestrial (Earth) days exist in a Martian year? Based on the visualization, a martian year appears to be approxiamately 730 earth days (2 earth years).
+    - To answer this question:
         - Consider how many days elapse on Earth in the time that Mars circles the Sun once.
         - Visually estimate the result by plotting the daily minimum temperature of each observation.
+          <br><br>
+          <img width="600" alt="Screenshot 2024-12-07 at 10 14 40 AM" src="https://github.com/user-attachments/assets/17a41745-93f2-4a6b-9d44-5377fc0b2c85">
+          <br><br>
     - Export the DataFrame to a CSV file.
